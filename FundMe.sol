@@ -6,9 +6,14 @@ import {AggregatorV3Interface} from "@chainlink/contracts/src/v0.8/interfaces/Ag
 contract FundMe {
     uint256 public minUsd = 1;
 
+    address[] public funders;
+    mapping(address funder => uint256 amountFunded) public addressToAmountFunded;
+
     function fund() public payable {
         require(getConversionRate(msg.value) >= minUsd, "didn't send enough ETH");
         // 1e18 = 1 ETH = 1 * 10 ** 18
+        funders.push(msg.sender);
+        addressToAmountFunded[msg.sender] = addressToAmountFunded[msg.sender] + msg.value;
     }
 
     function getPrice() public view returns (uint256) {
