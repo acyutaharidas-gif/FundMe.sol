@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.31+commit.fd3a2265"
+		"version": "0.8.33+commit.64118f21"
 	},
 	"language": "Solidity",
 	"output": {
@@ -51,51 +51,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "ethAmount",
-						"type": "uint256"
-					}
-				],
-				"name": "getConversionRate",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getPrice",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getVersion",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "minUsd",
 				"outputs": [
@@ -106,6 +61,13 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -145,11 +107,19 @@
 			]
 		},
 		"FundMe.sol": {
-			"keccak256": "0xf1850d6ad9e5720406142ba01b7d431227393d857fd54f62d784985665390966",
+			"keccak256": "0x0ac9ce01d1cafb58078fc17bf47446ea54501f5e24670c06b05a621c962f9371",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ed38c6c2f6b28658a8e60c390ba8caa95440a96cb9036e4f7c2be8752935d722",
-				"dweb:/ipfs/QmRacSz1u1UTvQCah6sZhgg8BKJefUK5n6fbiwycPGXtgo"
+				"bzz-raw://029e4ed2f1a70018ca0d0737bf4e4f5ef53416843f955f99551d0da69a695453",
+				"dweb:/ipfs/QmahFjXu6rVBfbDt14xZsDc83AYRTm8CBnoUYXvCErtVeE"
+			]
+		},
+		"PriceConverter.sol": {
+			"keccak256": "0x7a6c4bf64cdf1d755ca7f68c63eb8782ecf3b1084cb7fff7e0108364f0849057",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e5ca6fc689a281381c227d9871f002c0a88c995df0748e21733e842fa0e573c",
+				"dweb:/ipfs/QmVb5mCJx8YBBz26A78j339dx9uBEW1qkfFZCCeahPZa8P"
 			]
 		}
 	},

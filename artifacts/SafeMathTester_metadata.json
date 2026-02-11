@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SafeMath.sol": "SafeMathTester"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SafeMath.sol": {
+			"keccak256": "0x827dd1abb979697de2344b3758ded0ded1d5d0cfdea6dd9344d47955cd99158f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e526ee666467b24c89444305a3e728f34f6993a864eacb754d66bc614f01729",
+				"dweb:/ipfs/QmUJji4SvsehvSfRJcrrtGpjUNr9qv6EVScw94Z7meYTFk"
+			]
+		}
+	},
+	"version": 1
+}
